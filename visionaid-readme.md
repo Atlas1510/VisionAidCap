@@ -54,9 +54,10 @@ pillow (PIL)
    - **Windows**:
      1. Download the installer from [https://github.com/UB-Mannheim/tesseract/wiki](https://github.com/UB-Mannheim/tesseract/wiki)
      2. Run the installer and complete the installation
-     3. Update the path in the code to match your installation location:
+       2.1. Install for the user not the entire machine.
+     4. Update the path in the code to match your installation location:
         ```python
-        pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+        pytesseract.pytesseract.tesseract_cmd = r'C:\Users\---\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
         ```
 
    - **macOS**:

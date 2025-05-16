@@ -238,10 +238,6 @@ To extend the application with new features:
 3. **UI Enhancements**: Modify the Kivy layout in the `kv_string` variable
 4. **Gesture Recognition**: Expand the tap system to include swipes or other gestures
 
-## License
-
-[Insert your license information here]
-
 ## Acknowledgments
 
 - Ultralytics for the YOLO object detection models

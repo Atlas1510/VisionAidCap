@@ -228,6 +228,9 @@ The system includes several safety-focused features:
 4. **Platform Compatibility**:
    - This application is primarily designed for desktop/laptop use with a webcam
    - The code includes Android-specific imports, but the Android functionality is theoretical and would require additional implementation
+     
+5. **Application Crashing **:
+   - Incase of the application popping the window for the simulated screen then stopping during run time. Run the IDE in administrator mode.
 
 ## Extending the Application
 
